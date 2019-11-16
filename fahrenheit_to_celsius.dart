@@ -2,19 +2,26 @@ import 'dart:io';
 
 main() {
   var line = stdin.readLineSync();
-  var casosDePrueba = int.parse(line);
-  Convertir(casosDePrueba);
+  var testCases = int.parse(line);
+  ConvertToCelcius(testCases);
 
 }
 
-Convertir(casosDePrueba){
-  for (var i = 0; i < casosDePrueba; i++) {
-    var gradosFrarenheitString = stdin.readLineSync();
+ConvertToCelcius(testCases){
+  for (var i = 1; i <= testCases; i++) {
+    var fahrenheitDegreesString = stdin.readLineSync();
 
-    int gradosFrarenheit =  int.parse(gradosFrarenheitString); 
+    var  split = fahrenheitDegreesString.split(" ");
 
-    var gradosCelcuis = (gradosFrarenheit - 32)/1.8;
+    for (var degree in split) {
+      
+      var fahrenheitDegrees = int.parse(degree);
 
-    print(gradosCelcuis.toStringAsFixed(0));
+      var degreesCelsius = (fahrenheitDegrees- 32)/1.8;
+      
+      print(degreesCelsius.toStringAsFixed(0));
+    }
+
+
   }
 }
