@@ -21,7 +21,5 @@ ConvertToCelcius(testCases){
       
       print(degreesCelsius.toStringAsFixed(0));
     }
-
-
   }
 }
