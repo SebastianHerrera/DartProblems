@@ -1,0 +1,20 @@
+{
+  "name": "retosFluid",
+  "version": "1.0.0",
+  "description": "Im just dev some apps in dart and flutter. It's the same, i guess This is a \"new\" language for me. So, let's to learn!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianHerrera/DartProblems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianHerrera/DartProblems/issues"
+  },
+  "homepage": "https://github.com/SebastianHerrera/DartProblems#readme"
+}
